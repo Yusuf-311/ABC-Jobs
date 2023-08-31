@@ -1,0 +1,111 @@
+* {
+	margin : 0;padding : 0;
+	
+}
+
+.partner {
+	position: absolute;
+	left: 8%;
+	bottom : -75%;
+	
+}
+.partner img {
+height: 100px;
+width: 100px;
+}
+
+.partner .ikan img {
+height: 100px;
+width: 150px;
+}
+
+.glass {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5.1px);
+	-webkit-backdrop-filter: blur(1.1px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero-content .heading {
+  min-width: 550px;
+  max-width: 600px;
+}
+
+.background-image {
+	background-image: url("./images/image/homepage.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	opacity: 95%;
+}
+
+.glass {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5.1px);
+	-webkit-backdrop-filter: blur(1.1px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Partners */
+#partners {
+  background-color: #f3f2f0;
+}
+
+.ikan img {
+  width: 200px;
+}
+
+/* Topics */
+.topic-tag {
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.topic-tag:hover {
+  background-color: #eeeeee;
+}
+
+/* Featured Jobs */
+.job-container {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+  width: 60px;
+}
+
+@media (max-width: 768px) {
+  .hero-image img {
+    min-width: 300px;
+    max-width: 600px;
+  }
+
+  .hero-content .heading {
+    min-width: auto;
+    max-width: auto;
+  }
+
+  .partner img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .partner img {
+    width: 100px;
+  }
+}
